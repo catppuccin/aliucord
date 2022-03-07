@@ -4,7 +4,7 @@
         "name": "Catppuccin\n",
         "version": "1.0.0",
         "license": "GPL v3.0",
-        "updater": "https:\/\/raw.githubusercontent.com\/skinatro\/Catppuccin-Aliucord\/main\/Catppuccin.json"
+        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/Aliucord\/main\/Catppuccin.json"
     },
     "background": {},
     "fonts": {},
