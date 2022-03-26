@@ -2,7 +2,7 @@
     "manifest": {
         "author": "GNU\/Mirage#3455",
         "name": "Catppuccin\n",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "license": "GPL v3.0",
         "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/Aliucord\/main\/Catppuccin.json"
     },
@@ -20,8 +20,21 @@
     },
     "colors": {
         "link": -10433843,
-        "primary_dark_630": -15067098
+        "primary_dark_630": -15067098,
+        "primary_dark_800": -15330528,
+        "primary_700": -13554110,
+        "status_grey_200": -1531217,
+        "primary_dark_660": -13619903,
+        "primary_dark_700": -14803410,
+        "dim_foreground_material_light": -15067098,
+        "primary_630": -15067098,
+        "primary_660": -15396321,
+        "primary_700_alpha_60": -15396321,
+        "uikit_btn_bg_color_selector_green": -5510733,
+        "uikit_settings_item_text_color_light": -6779998
     },
-    "drawable_tints": {},
+    "drawable_tints": {
+        "drawable_button_red": -10724500
+    },
     "raws": {}
 }
