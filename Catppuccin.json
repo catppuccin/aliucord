@@ -1,7 +1,7 @@
 {
     "manifest": {
         "author": "GNU\/Mirage#3455",
-        "name": "Catppuccin\n",
+        "name": "Catppuccin",
         "version": "1.0.1",
         "license": "GPL v3.0",
         "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/Aliucord\/main\/Catppuccin.json"
