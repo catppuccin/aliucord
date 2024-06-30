@@ -1,19 +1,13 @@
 {
     "manifest": {
         "author": "nyraki",
-        "name": "catppuccin frappé",
-        "version": "1.0.0",
+        "name": "Catppuccin Frappé",
+        "version": "1.3.0",
         "license": "MIT",
         "updater": "https:\/\/raw.githubusercontent.com\/myumichi\/aliucord\/main\/src\/frappe.json"
     },
     "background": {},
-    "fonts": {
-        "whitney_semibold": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-Bold.ttf?raw=1",
-        "whitney_bold": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-Bold.ttf?raw=1",
-        "ginto_medium": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-ExtraBold.ttf?raw=1",
-        "ginto_bold": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-ExtraBold.ttf?raw=1",
-        "whitney_medium": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-SemiBold.ttf?raw=1"
-    },
+    "fonts": {},
     "simple_colors": {
         "accent": -7558418,
         "input_background": -14473676,

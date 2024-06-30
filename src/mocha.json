@@ -1,19 +1,13 @@
 {
     "manifest": {
         "author": "nyraki",
-        "name": "catppuccin mocha",
         "version": "1.0.0",
         "license": "MIT",
-        "updater": "https:\/\/raw.githubusercontent.com\/myumichi\/aliucord\/main\/src\/mocha.json"
+        "updater": "https:\/\/raw.githubusercontent.com\/myumichi\/aliucord\/main\/src\/mocha.json",
+        "name": "Catppuccin Mocha"
     },
     "background": {},
-    "fonts": {
-        "whitney_semibold": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-Bold.ttf?raw=1",
-        "whitney_bold": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-Bold.ttf?raw=1",
-        "ginto_medium": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-ExtraBold.ttf?raw=1",
-        "ginto_bold": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-ExtraBold.ttf?raw=1",
-        "whitney_medium": "https:\/\/github.com\/myumichi\/aliucord\/blob\/main\/assets\/fonts\/Manrope-SemiBold.ttf?raw=1"
-    },
+    "fonts": {},
     "simple_colors": {
         "accent": -7688716,
         "input_background": -15658725,
