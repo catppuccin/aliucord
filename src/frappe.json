@@ -2,9 +2,9 @@
     "manifest": {
         "author": "nyraki",
         "name": "Catppuccin Frappé",
-        "version": "1.3.0",
         "license": "MIT",
-        "updater": "https:\/\/raw.githubusercontent.com\/myumichi\/aliucord\/main\/src\/frappe.json"
+        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/frappe.json",
+        "version": "2.0.0"
     },
     "background": {},
     "fonts": {},

@@ -2,9 +2,9 @@
     "manifest": {
         "author": "nyraki",
         "name": "Catppuccin Latte",
-        "version": "1.3.0",
         "license": "MIT",
-        "updater": "https:\/\/raw.githubusercontent.com\/myumichi\/aliucord\/main\/src\/latte.json"
+        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/latte.json",
+        "version": "2.0.0"
     },
     "background": {},
     "fonts": {},
