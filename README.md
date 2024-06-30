@@ -31,7 +31,7 @@
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src=assets/mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
