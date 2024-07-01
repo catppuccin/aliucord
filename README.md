@@ -58,14 +58,15 @@
 > **Using third party clients is against the ToS. We are not responsible for anything that might happen to your account by using third party clients. Use at your own discretion.**
 
 - Q: **_Which plugins are used in the screenshots?_**
-- A: The plugins included are:
-  - BetterChatbox
-  - BetterStatusIndicators
-  - BetterChannelIcons
-  - BetterDashless
-  - NoBurnIn
-  - LayoutController
-  - SquareAvatars
+
+  A: The plugins included are:
+  	- BetterChatbox
+  	- BetterStatusIndicators
+  	- BetterChannelIcons
+  	- BetterDashless
+  	- NoBurnIn
+  	- LayoutController
+  	- SquareAvatars
 
 
 - Q: **_Why can't I see X thing themed?_** 
