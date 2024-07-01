@@ -67,8 +67,6 @@
   - LayoutController
   - SquareAvatars
 
-- Q: **_Will other accents be added in the future?_**
-- A: Yes, new accents will be added each week. (hopefully)
 
 - Q: **_Why can't I see X thing themed?_**
 - A: The introduction of Material You has affected devices on Android 12+, and some areas may not render correctly. If you are on a Custom ROM, please look at [this fix.](https://rentry.co/ThemerFixer)
