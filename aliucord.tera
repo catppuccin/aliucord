@@ -22,7 +22,7 @@ whiskers:
     "simple_colors": {
         "accent": {{ accent.sint32 }},
         "input_background": {{ crust.sint32 }},
-        "mention_highlight": {{ accent | mod(opacity=0.93) | get(key="sint32") }},
+        "mention_highlight": {{ accent | mod(opacity=0.2) | get(key="sint32") }},
         "statusbar": {{ crust.sint32 }}
     },
     "colors": {
