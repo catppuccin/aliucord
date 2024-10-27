@@ -1,0 +1,94 @@
+---
+whiskers:
+  version: "2.5.0"
+  matrix:
+   - flavor
+   - accent
+  filename: "src/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
+---
+
+{%- set accent = flavor.colors[accent] -%}
+
+{
+    "manifest": {
+        "author": "nyraki",
+        "name": "Catppuccin {{ flavor.name }} {{ accent.name }}",
+        "license": "MIT",
+        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}.json",
+        "version": "2.0.0"
+    },
+    "background": {},
+    "fonts": {},
+    "simple_colors": {
+        "accent": {{ accent.sint32 }},
+        "input_background": {{ crust.sint32 }},
+        "mention_highlight": {{ accent | mod(opacity=0.2) | get(key="sint32") }},
+        "statusbar": {{ crust.sint32 }}
+    },
+    "colors": {
+        "primary_dark_700": {{ crust.sint32 }},
+        "primary_dark_630": {{ mantle.sint32 }},
+        "primary_dark_600": {{ base.sint32 }},
+        "primary_dark_200": {{ subtext1.sint32 }},
+        "primary_dark_330": {{ overlay0.sint32 }},
+        "primary_dark_800": {{ crust.sint32 }},
+        "primary_dark_400": {{ subtext1.sint32 }},
+        "primary_dark_900": {{ crust.sint32 }},
+        "primary_dark_660": {{ crust.sint32 }},
+        "primary_dark_360": {{ overlay2.sint32 }},
+        "uikit_settings_item_text_color_light": {{ overlay0.sint32 }},
+        "uikit_settings_item_text_color_dark": {{ text.sint32 }},
+        "primary_dark_300": {{ text.sint32 }},
+        "uikit_btn_bg_color_selector_red": {{ red.sint32 }},
+        "uikit_btn_bg_color_selector_green": {{ overlay2.sint32 }},
+        "link": {{ accent.sint32 }},
+        "link_500": {{ accent.sint32 }},
+        "primary_660": {{ accent.sint32 }},
+        "white_500": {{ text.sint32 }},
+        "primary_630": {{ mantle.sint32 }},
+        "uikit_btn_compound_color_selector_dark": {{ accent.sint32 }},
+        "status_grey_200": {{ text.sint32 }},
+        "brand_500_alpha_20": {{ accent | mod(opacity=0.25) | get(key="sint32") }},
+        "primary_500_alpha_32": {{ crust.sint32 }},
+        "primary_300": {{ mantle.sint32 }},
+        "primary_700_alpha_60": {{ accent.sint32 }},
+        "primary_900_alpha_80": {{ mantle.sint32 }}
+    },
+    "drawable_tints": {
+        "ic_status_dnd_16dp": {{ red.sint32 }},
+        "ic_status_online_16dp": {{ green.sint32 }},
+        "ic_status_idle_16dp": {{ yellow.sint32 }},
+        "drawable_button_grey": {{ crust.sint32 }},
+        "drawable_overlay_channels_selected_dark": {{ surface0.sint32 }},
+        "drawable_overlay_channel_pressed_dark": {{ crust.sint32 }},
+        "ic_channel_announcements": {{ overlay2.sint32 }},
+        "ic_channel_announcements_locked": {{ overlay2.sint32 }},
+        "ic_channel_announcements_thread": {{ overlay2.sint32 }},
+        "ic_channel_announcements_thread_locked": {{ overlay2.sint32 }},
+        "ic_channel_text_locked": {{ overlay2.sint32 }},
+        "ic_channel_text_nsfw": {{ overlay2.sint32 }},
+        "ic_channel_text": {{ overlay2.sint32 }},
+        "ic_file_download_white_24dp": {{ text.sint32 }},
+        "ic_file_download_grey_24dp": {{ overlay2.sint32 }},
+        "ic_add_friend_plus": {{ green.sint32 }},
+        "ic_channel_voice": {{ overlay2.sint32 }},
+        "ic_channel_voice_locked": {{ overlay2.sint32 }},
+        "drawable_button_red": {{ red.sint32 }},
+        "ic_account_circle_white_a60_24dp": {{ overlay2.sint32 }},
+        "ic_ban_red_24dp": {{ red.sint32 }},
+        "ic_add_white_24dp": {{ text.sint32 }},
+        "ic_share_white_24dp": {{ text.sint32 }},
+        "ic_archived_clock_dark": {{ overlay2.sint32 }},
+        "ic_sidebar_pins_off_dark_24dp": {{ text.sint32 }},
+        "ic_sidebar_notifications_on_dark_24dp": {{ text.sint32 }},
+        "ic_sidebar_notifications_off_dark_24dp": {{ overlay2.sint32 }},
+        "ic_direct_message_header": {{ overlay2.sint32 }},
+        "ic_content_copy_white_a60_24dp": {{ text.sint32 }},
+        "ic_boosted_badge_18dp": {{ mauve.sint32 }},
+        "ic_hypesquad_house1_32dp": {{ mauve.sint32 }},
+        "ic_hypesquad_house3_32dp": {{ teal.sint32 }},
+        "ic_hypesquad_house2_32dp": {{ peach.sint32 }},
+        "ic_account_spotify_light_and_dark_24dp": {{ green.sint32 }}
+    },
+    "raws": {}
+}

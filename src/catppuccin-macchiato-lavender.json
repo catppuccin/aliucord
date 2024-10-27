@@ -1,17 +1,17 @@
 {
     "manifest": {
         "author": "nyraki",
-        "name": "Catppuccin Macchiato",
+        "name": "Catppuccin Macchiato Lavender",
         "license": "MIT",
-        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/macchiato.json",
+        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/catppuccin-macchiato-lavender.json",
         "version": "2.0.0"
     },
     "background": {},
     "fonts": {},
     "simple_colors": {
-        "accent": -7752454,
+        "accent": -4735496,
         "input_background": -15197914,
-        "mention_highlight": 864662778,
+        "mention_highlight": 867679736,
         "statusbar": -15197914
     },
     "colors": {
@@ -30,23 +30,23 @@
         "primary_dark_300": -3484683,
         "uikit_btn_bg_color_selector_red": -1210474,
         "uikit_btn_bg_color_selector_green": -7103817,
-        "link": -7688716,
-        "link_500": -7688716,
-        "primary_660": -7688716,
+        "link": -4735496,
+        "link_500": -4735496,
+        "primary_660": -4735496,
         "white_500": -3484683,
         "primary_630": -14802896,
-        "uikit_btn_compound_color_selector_dark": -7688716,
+        "uikit_btn_compound_color_selector_dark": -4735496,
         "status_grey_200": -3484683,
-        "brand_500_alpha_20": 1049275892,
+        "brand_500_alpha_20": 1085783544,
         "primary_500_alpha_32": -15197914,
         "primary_300": -14802896,
-        "primary_700_alpha_60": -7688716,
+        "primary_700_alpha_60": -4735496,
         "primary_900_alpha_80": -14802896
     },
     "drawable_tints": {
         "ic_status_dnd_16dp": -1210474,
         "ic_status_online_16dp": -5842283,
-        "ic_status_idle_16dp": -400721,
+        "ic_status_idle_16dp": -1125217,
         "drawable_button_grey": -15197914,
         "drawable_overlay_channels_selected_dark": -13223345,
         "drawable_overlay_channel_pressed_dark": -15197914,
@@ -73,9 +73,10 @@
         "ic_sidebar_notifications_off_dark_24dp": -7103817,
         "ic_direct_message_header": -7103817,
         "ic_content_copy_white_a60_24dp": -3484683,
-        "ic_hypesquad_house2_32dp": -677505,
+        "ic_boosted_badge_18dp": -3759882,
         "ic_hypesquad_house1_32dp": -3759882,
         "ic_hypesquad_house3_32dp": -7612982,
+        "ic_hypesquad_house2_32dp": -677505,
         "ic_account_spotify_light_and_dark_24dp": -5842283
     },
     "raws": {}

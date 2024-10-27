@@ -1,17 +1,18 @@
 {
     "manifest": {
         "author": "nyraki",
-        "name": "Catppuccin Frappé",
+        "name": "Catppuccin Frappé Maroon",
         "license": "MIT",
-        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/frappe.json",
+        "updater": "https:\/\/raw.githubusercontent.com\/catppuccin\/aliucord\/main\/src\/catppuccin-frappe-maroon.json",
         "version": "2.0.0"
     },
     "background": {},
     "fonts": {},
     "simple_colors": {
-        "accent": -7558418,
+        "accent": -1402468,
         "input_background": -14473676,
-        "mention_highlight": 864856814
+        "mention_highlight": 871012764,
+        "statusbar": -14473676
     },
     "colors": {
         "primary_dark_700": -14473676,
@@ -29,17 +30,17 @@
         "primary_dark_300": -3747595,
         "uikit_btn_bg_color_selector_red": -1604988,
         "uikit_btn_bg_color_selector_green": -7037765,
-        "link": -7558418,
-        "link_500": -7558418,
-        "primary_660": -7558418,
+        "link": -1402468,
+        "link_500": -1402468,
+        "primary_660": -1402468,
         "white_500": -3747595,
         "primary_630": -14078916,
-        "uikit_btn_compound_color_selector_dark": -7558418,
+        "uikit_btn_compound_color_selector_dark": -1402468,
         "status_grey_200": -3747595,
-        "brand_500_alpha_20": 1049406190,
+        "brand_500_alpha_20": 1089116572,
         "primary_500_alpha_32": -14473676,
         "primary_300": -14078916,
-        "primary_700_alpha_60": -7558418,
+        "primary_700_alpha_60": -1402468,
         "primary_900_alpha_80": -14078916
     },
     "drawable_tints": {
